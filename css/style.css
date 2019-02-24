@@ -1,0 +1,174 @@
+/* General Styles */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    color:  #333;
+    text-align: center;  
+}
+
+::-webkit-input-placeholder {
+    color:  #333;
+    text-align: left;
+} 
+
+section:nth-child(even){
+    background-color: #f2f1ed;
+}
+
+footer {
+    background-color: #f2f1ed; 
+}
+
+hr {
+    width: 5rem;
+    border-top:  #007bff solid 1px;
+}
+span {
+    color:  #007bff;
+}
+
+.button {
+    border: 1px solid  #007bff;
+    text-transform: uppercase;
+    font-size: 0.5em;
+    padding: 0.5em;
+    text-decoration-line: none;
+}
+ h2 {
+    text-transform: uppercase;
+    padding-top: 3em;
+}
+
+/* Header Styles */
+header {
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/header.jpg);
+}
+#headerinfo {
+padding-top: 3em;
+font-size: 2em;
+}
+
+header h1 {
+    text-transform: uppercase;
+    color: #007bff;
+    margin: 0px;
+}
+
+/* Navigation Style */
+nav {
+    background-color:  #007bff;
+    height: 5vh;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav ul{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+li a {
+    text-decoration-line: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    position: relative;
+    top: .5em;
+    font-size: .7em;
+
+}
+
+/* About Me Style */
+
+
+.aboutme img {
+    border-radius: 50%;
+}
+
+.aboutme p {
+padding-top: 1em;
+width: 50%;
+position: relative;
+left: 25%;
+}
+
+.aboutme a {
+    font-size: 1em;
+}
+.aboutme div {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+/* Style Gallery */
+.container {
+    padding-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 10%; */
+    justify-content: center;
+    /* flex-basis: 25%; */
+   
+}
+
+.image {
+    max-width:100%;
+    height: 180px;
+}
+
+/* Style Form */
+.form {
+    padding-top: .5em;
+    /* border: solid 1px darkcyan; */
+}
+
+.form input {
+    width: 40vh;
+    height: 5vh;
+    margin: 1vh;
+}
+.form textarea {
+    width: 83vh;
+    height:15vh;
+}
+
+
+
+
+/* Style footer */
+
+
+footer p {
+    margin: 0;
+}
+
+
+input.button {
+    background-color: white;
+    font-size: 1em;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
